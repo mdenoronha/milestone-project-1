@@ -1,7 +1,7 @@
 /*Body*/
 
 body {
-    font-family: 'Caveat', cursive;
+    font-family: 'Sue Ellen Francisco', cursive;
 }
 
 
@@ -19,6 +19,10 @@ body {
 
 .logo-img-mobile {
     display: none;
+}
+
+.logo-img:hover {
+    opacity: 0.6;
 }
 
 /*Logo Media Queries*/
@@ -57,22 +61,34 @@ body {
 @media (min-width: 767px) {
     .navbar-nav li {
         width: 50%;
-        border: 1px solid rgba(0, 0, 0, .5);
-        padding: 4px 20px;
+        border: 3px solid rgba(0, 0, 0, .5);
+        padding: 5px 20px 5px 20px;
         margin: 0 15px;
         display: inline-block;
         font-size: 20px;
+        border-radius: 320px 10px 200px 16px/17px 230px 12px 260px;
     }
 
     .navbar-nav .active {
-        border: 1px solid black;
+        border: 3px solid black;
     }
+
 
     .navbar-nav li:not(.active):hover {
         font-size: 23px;
-        border: 1px solid black;
-        padding: 1px 20px;
+        border: 3px solid black;
+        padding: 4px 20px 1px 20px;
+        border-radius: 327px 17px 207px 21px/23px 237px 19px 268px;
     }
+    
+    .navbar-nav li:not(.active):hover a {
+        color: black;
+    }
+    
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: black;
+    }
+
 }
 
 @media (max-width: 768px) {
