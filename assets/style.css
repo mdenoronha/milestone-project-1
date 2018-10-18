@@ -1,0 +1,119 @@
+/*Body*/
+
+body {
+    font-family: 'Caveat', cursive;
+}
+
+
+/*Logo*/
+
+.logo-centred {
+    margin: 0 auto;
+}
+
+.logo-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.logo-img-mobile {
+    display: none;
+}
+
+/*Logo Media Queries*/
+
+@media (max-width: 767px) {
+    .logo-img-mobile {
+        display: block;
+        margin-right: 25%;
+        width: 50%;
+    }
+
+    .logo-img {
+        display: none;
+    }
+}
+
+/*Menu*/
+
+.navbar-toggler {
+    border: 0;
+    outline: none;
+}
+
+.navbar-nav {
+    padding-bottom: 30px;
+}
+
+.navbar-nav,
+.navbar-nav li {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*Menu Media Queries*/
+
+@media (min-width: 767px) {
+    .navbar-nav li {
+        width: 50%;
+        border: 1px solid rgba(0, 0, 0, .5);
+        padding: 4px 20px;
+        margin: 0 15px;
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar-nav .active {
+        border: 1px solid black;
+    }
+
+    .navbar-nav li:not(.active):hover {
+        font-size: 23px;
+        border: 1px solid black;
+        padding: 1px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav li {
+    font-size: 20px;
+}
+}
+
+/*Banner Image Media Queries*/
+@media (min-width: 767px) {
+
+.banner-container {
+    padding: 0;
+}
+
+.banner-image {
+    height: 110vh;
+    background: url(imgs/header-image-desktop.jpg) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+}
+
+
+@media (max-width: 767px) {
+
+.banner-container {
+    padding: 0;
+}
+
+.banner-image {
+    height: 110vh;
+    /*Need to update image*/
+    background: url(imgs/header-image-desktop.jpg) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+}
