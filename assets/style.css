@@ -5,12 +5,14 @@ body {
 }
 
 
-/*Logo*/
+/*Logos*/
 
+.logo-centred-footer,
 .logo-centred {
     margin: 0 auto;
 }
 
+.logo-img-footer,
 .logo-img {
     display: block;
     margin: 0 auto;
@@ -29,7 +31,7 @@ body {
 
 @media (max-width: 767px) {
     .logo-img-mobile {
-        display: block;
+        display: inline-block;
         margin-right: 25%;
         width: 50%;
     }
@@ -48,9 +50,10 @@ body {
 
 .navbar-nav {
     padding-bottom: 30px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.navbar-nav,
 .navbar-nav li {
     margin: 0 auto;
     text-align: center;
@@ -80,12 +83,13 @@ body {
         padding: 4px 20px 1px 20px;
         border-radius: 327px 17px 207px 21px/23px 237px 19px 268px;
     }
-    
+
     .navbar-nav li:not(.active):hover a {
         color: black;
     }
-    
-    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
         color: black;
     }
 
@@ -93,43 +97,85 @@ body {
 
 @media (max-width: 768px) {
     .navbar-nav li {
-    font-size: 20px;
-}
+        font-size: 20px;
+    }
 }
 
 /*Banner Image Media Queries*/
+
 @media (min-width: 767px) {
 
-.banner-container {
-    padding: 0;
-}
+    .banner-container {
+        padding: 0;
+    }
 
-.banner-image {
-    height: 110vh;
-    background: url(imgs/header-image-desktop.jpg) no-repeat center top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    .banner-image {
+        height: 110vh;
+        background: url(imgs/header-image-desktop.jpg) no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 
-}
+    }
 }
 
 
 @media (max-width: 767px) {
 
-.banner-container {
+    .banner-container {
+        padding: 0;
+    }
+
+    .banner-image {
+        height: 110vh;
+        /*Need to update image*/
+        background: url(imgs/header-image-desktop.jpg) no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+    }
+}
+
+/*Footer*/
+
+.footer-color {
+    background-color: #e8e8e8;
+}
+
+.logo-img-footer {
+    width: 25%;
+    padding: 50px 0 20px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons ul {
     padding: 0;
 }
 
-.banner-image {
-    height: 110vh;
-    /*Need to update image*/
-    background: url(imgs/header-image-desktop.jpg) no-repeat center top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
+.social-icons ul li {
+    float: left;
+    list-style-type: none;
+    padding: 0 10px;
 }
+
+.copyright-text p {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px
+}
+
+/*Footer Media Queries*/
+
+@media (max-width: 767px) {
+    .logo-img-footer {
+        width: 50%;
+        padding: 50px 0 20px 0;
+    }
 }
