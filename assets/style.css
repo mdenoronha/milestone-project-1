@@ -17,6 +17,18 @@ h2 {
     margin-bottom: 0;
 }
 
+button {
+    border: 3px solid rgba(0, 0, 0, .5);
+    border-radius: 320px 10px 200px 16px/17px 230px 12px 260px;
+    color: rgba(0, 0, 0, .5);
+}
+
+button:hover {
+    border: 3px solid black;
+    color: black;
+    border-radius: 327px 17px 207px 21px/23px 237px 19px 268px;
+}
+
 
 /*Logos*/
 
@@ -42,7 +54,7 @@ h2 {
 
 /*Logo Media Queries*/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .logo-img-mobile {
         display: inline-block;
         margin-right: 25%;
@@ -74,7 +86,7 @@ h2 {
 
 /*Menu Media Queries*/
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .navbar-nav li {
         width: 50%;
         border: 3px solid rgba(0, 0, 0, .5);
@@ -164,6 +176,7 @@ h2 {
     height: auto;
 }
 
+
 .promo-banner button {
     position: absolute;
     top: 50%;
@@ -173,18 +186,12 @@ h2 {
     width: 20%;
     height: 40%;
     font-size: 40px;
-    border: 3px solid rgba(0, 0, 0, .5);
-    border-radius: 320px 10px 200px 16px/17px 230px 12px 260px;
-    color: rgba(0, 0, 0, .5);
 }
 
 
 
 .promo-banner button:hover {
     font-size: 42px;
-    border: 3px solid black;
-    color: black;
-    border-radius: 327px 17px 207px 21px/23px 237px 19px 268px;
 }
 
 /*Promo Media Queries*/
@@ -201,11 +208,11 @@ h2 {
 
 @media (max-width: 576px) {
     .promo-banner button {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .promo-banner button:hover {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -307,7 +314,7 @@ h2 {
 /*Modal*/
 
 .modal-content {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     border: none;
 }
 
@@ -320,7 +327,7 @@ h2 {
 }
 
 .close:focus {
-    outline:none;
+    outline: none;
 }
 
 .close span:hover {
@@ -330,16 +337,17 @@ h2 {
 /*Modal Media Queries*/
 
 @media (min-width: 992px) {
-.modal-lg {
-    max-width: 1000px;
-}
+    .modal-lg {
+        max-width: 1000px;
+    }
 }
 
 @media (min-width: 576px) {
-.modal-dialog {
-    max-width: 1300px;
+    .modal-dialog {
+        max-width: 1300px;
+    }
 }
-}
+
 /*All videos section*/
 
 .all-videos {
@@ -511,32 +519,40 @@ label[for^=tab] {
 
 /* Acordeon styles media queries */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .tab-one-background {
-        background: url(https://f4.bcbits.com/img/a3806874278_10.jpg);
+        background: linear-gradient( rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.2)),
+        url(https://f4.bcbits.com/img/a3806874278_10.jpg);
         background-size: 100%;
     }
     .tab-two-background {
-        background: url(https://f4.bcbits.com/img/a3272424778_10.jpghttps://f4.bcbits.com/img/a3272424778_10.jpg);
+        background: linear-gradient( rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.2)),
+        url(https://f4.bcbits.com/img/a3272424778_10.jpghttps://f4.bcbits.com/img/a3272424778_10.jpg);
         background-size: 100%;
     }
     .tab-three-background {
-       background: url(https://f4.bcbits.com/img/a2139531776_10.jpg);
+        background: linear-gradient( rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.2)),
+        url(https://f4.bcbits.com/img/a2139531776_10.jpg);
         background-size: 100%;
     }
-    
+
     label[for^=tab] {
-    color: white;
-    margin-bottom: 100px;
-}
+        color: white;
+        margin-bottom: 100px;
+    }
 
 
     .tab-mobile-display {
         display: none;
     }
+
+    label[for^=tab] {
+        border-bottom: none;
+    }
 }
-
-
 
 
 /* :checked */
@@ -575,4 +591,195 @@ label[for^=tab] {
 
 .tab input[type=radio]:checked+label::after {
     transform: rotateX(180deg);
+}
+
+/* Tour map */
+
+.tour-map {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.europe {
+    position: absolute;
+    z-index: 2;
+    width: 14%;
+    height: 38%;
+    top: 4%;
+    left: 14%;
+}
+
+.africa {
+    position: absolute;
+    z-index: 2;
+    width: 14%;
+    height: 46%;
+    top: 39.5%;
+    left: 14%;
+}
+
+.australia {
+    position: absolute;
+    z-index: 2;
+    width: 14%;
+    height: 36%;
+    top: 58.5%;
+    left: 40%;
+}
+
+.asia {
+    position: absolute;
+    z-index: 2;
+    width: 28%;
+    height: 54%;
+    top: 4%;
+    left: 28.1%;
+}
+
+.north-america {
+    position: absolute;
+    z-index: 2;
+    width: 31%;
+    height: 55%;
+    top: -0.5%;
+    left: 56.3%;
+}
+
+.south-america {
+    position: absolute;
+    z-index: 2;
+    width: 17%;
+    height: 44%;
+    top: 55.5%;
+    left: 67.3%;
+}
+
+/* Tour map media queries*/
+
+@media (min-width: 768px) {
+    
+    .mobile-continent {
+        visibility: hidden;
+    }
+    
+    .desktop-continent {
+        visibility: inherit;
+    }
+
+
+    .continent:hover {
+        background-image: radial-gradient( circle closest-side,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0));
+        display: inherit;
+
+    }
+
+    .continent {
+        display: hidden;
+    }
+
+    .continent:hover h3 {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: white;
+        display: inherit;
+    }
+
+    .continent h3 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .desktop-continent {
+        visibility: hidden;
+    }
+    
+    .mobile-continent {
+        visibility: inherit;
+    }
+
+    
+    .continent {
+        background-image: radial-gradient( circle closest-side,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0));
+    }
+
+
+    .continent:hover h3 {
+        font-size: 22px;
+
+    }
+
+    .continent h3 {
+        font-size: 20px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: white;
+    }
+}
+    
+
+@media (max-width: 576px) {
+     .desktop-continent {
+        visibility: hidden;
+    }
+    
+    .mobile-continent {
+        visibility: inherit;
+    }
+    
+    .continent {
+        background-image: radial-gradient( circle closest-side,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0));
+    }
+
+
+    .continent:hover h3 {
+        font-size: 17px;
+
+    }
+
+    .continent h3 {
+        font-size: 15px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: white;
+    }
+
+}
+
+/* Tour table*/
+
+.tour-row {
+    text-align: center;
+}
+
+.continent-table-title {
+    text-align: left
+}
+
+.venue-name {
+    font-size: 2.5rem;
+}
+
+.venue-location {
+    font-size: 1.5rem;
+}
+
+.title-row {
+    border-top: none !important;
 }
