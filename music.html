@@ -14,79 +14,97 @@
 </head>
 
 <body>
-   <!--Nav-->
+    <!--Nav-->
     <nav class="container-fluid">
         <div class="row">
-        <div class="col logo-centred">
-            <a href="#"><img class="logo-img" src="assets/imgs/logo.png"></img></a>
+            <div class="col logo-centred">
+                <a href="#"><img class="logo-img" src="assets/imgs/logo.png"></img></a>
+            </div>
         </div>
-       </div>
-       
-       <div class="row">
-           <div class="col">
-        <div class="navbar navbar-expand-md navbar-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOptions" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+
+        <div class="row">
+            <div class="col">
+                <div class="navbar navbar-expand-md navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOptions" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <img class="logo-img-mobile" src="assets/imgs/logo.png"></img>
+                    <img class="logo-img-mobile" src="assets/imgs/logo.png"></img>
 
-            <div class="collapse navbar-collapse" id="navbarOptions">
-                <div class="container flex">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="music.html">Music<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="videos.html">Videos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="photos.html">Photos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="tour.html">Tour</a>
-                        </li>
+                    <div class="collapse navbar-collapse" id="navbarOptions">
+                        <div class="container flex">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="music.html">Music<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="videos.html">Videos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="photos.html">Photos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="tour.html">Tour</a>
+                                </li>
+                        </div>
+                        </ul>
+
+                    </div>
                 </div>
-                </ul>
-
-            </div>
-            </div>
             </div>
         </div>
     </nav>
     <!--Nav Ends-->
 
     <!--Accordian-->
-    <div class="container fluid">
-        <div class="row">
+    <div class="container-fluid album-container">
+        <div class="section-header col-xs-12">
+            <h1>Music</h1>
+        </div>
+        <div class="row album-row">
+            <div class="tab-mobile-display col-md-6">
+                <img class="tab-album" src="https://f4.bcbits.com/img/a3806874278_10.jpg"></img>
+            </div>
             <div class="col-xs-12 col-md-6 music-accordian">
-                <p>Open <strong>multiple</strong></p>
                 <div class="tab tab-one-background">
                     <input id="tab-one" type="checkbox" name="tabs">
-                    <label for="tab-one">Label One</label>
+                    <label for="tab-one">Of Course You Do</label>
                     <div class="tab-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
-                    </div>
-                </div>
-                <div class="tab tab-two-background">
-                    <input id="tab-two" type="checkbox" name="tabs">
-                    <label for="tab-two">Label Two</label>
-                    <div class="tab-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
-                    </div>
-                </div>
-                <div class="tab tab-three-background">
-                    <input id="tab-three" type="checkbox" name="tabs">
-                    <label for="tab-three">Label Three</label>
-                    <div class="tab-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                        <iframe src="https://open.spotify.com/embed/album/3vuptrtW1CWriBLwq1JVAw" width="100%" height="460" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row album-row">
+            <div class="tab-mobile-display col-md-6">
+                <img class="tab-album" src="https://f4.bcbits.com/img/a3272424778_10.jpghttps://f4.bcbits.com/img/a3272424778_10.jpg"></img>
+            </div>
+            <div class="col-xs-12 col-md-6 music-accordian">
+                <div class="tab tab-two-background">
+                    <input id="tab-two" type="checkbox" name="tabs">
+                    <label for="tab-two">Everyone Else</label>
+                    <div class="tab-content">
+                        <iframe src="https://open.spotify.com/embed/album/6qxJOHs1aC5CosenxcWKQ3" width="100%" height="460" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> </div>
+                </div>
+            </div>
+        </div>
+        <div class="row album-row">
+            <div class="tab-mobile-display col-md-6">
+                <img class="tab-album" src="https://f4.bcbits.com/img/a2139531776_10.jpg"></img>
+            </div>
+            <div class="col-xs-12 col-md-6 music-accordian">
+                <div class="tab tab-three-background">
+                    <input id="tab-three" type="checkbox" name="tabs">
+                    <label for="tab-three">The Pact</label>
+                    <div class="tab-content">
+                        <iframe src="https://open.spotify.com/embed/album/07665OyRU6m8ZjRCjHIXVa" width="100%" height="460" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> </div>
+                </div>
+            </div>
+        </div>
     </div>
+
     <!--Accordian ends-->
 
 
@@ -100,7 +118,7 @@
     <!--Footer-->
 
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col logo-centred-footer">
                     <a href="#"><img class="logo-img-footer" src="assets/imgs/logo-footer.png"></img></a>

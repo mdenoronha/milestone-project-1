@@ -20,3 +20,6 @@ The Cloud9 IDE team
 Embed video responsiveness: http://embedresponsively.com/
 Add favicon
 Overlay play icon on videos
+
+Video modal code was Bootstrap modal and additional help provided by https://codepen.io/anon/pen/LgJRjz. Primarily for jQuery to stop video playing after modal closed. jQuery has been updated
+as it was targeting a button with class .video-btn but now targets < a> element with class .video-link (as no buttons are used). Modal has also been styled.
