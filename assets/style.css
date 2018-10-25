@@ -657,30 +657,22 @@ label[for^=tab] {
     left: 67.3%;
 }
 
+
+.continent:hover {
+    background-image: radial-gradient( circle closest-side,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0));
+    display: inherit;
+
+}
+
+.continent {
+    display: hidden;
+}
+
 /* Tour map media queries*/
 
 @media (min-width: 768px) {
-    
-    .mobile-continent {
-        visibility: hidden;
-    }
-    
-    .desktop-continent {
-        visibility: inherit;
-    }
-
-
-    .continent:hover {
-        background-image: radial-gradient( circle closest-side,
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0));
-        display: inherit;
-
-    }
-
-    .continent {
-        display: hidden;
-    }
 
     .continent:hover h3 {
         position: relative;
@@ -698,15 +690,7 @@ label[for^=tab] {
 }
 
 @media (max-width: 767px) {
-    .desktop-continent {
-        visibility: hidden;
-    }
-    
-    .mobile-continent {
-        visibility: inherit;
-    }
 
-    
     .continent {
         background-image: radial-gradient( circle closest-side,
         rgba(0, 0, 0, 1),
@@ -728,23 +712,9 @@ label[for^=tab] {
         color: white;
     }
 }
-    
+
 
 @media (max-width: 576px) {
-     .desktop-continent {
-        visibility: hidden;
-    }
-    
-    .mobile-continent {
-        visibility: inherit;
-    }
-    
-    .continent {
-        background-image: radial-gradient( circle closest-side,
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0));
-    }
-
 
     .continent:hover h3 {
         font-size: 17px;
@@ -772,14 +742,9 @@ label[for^=tab] {
     text-align: left
 }
 
-.venue-name {
-    font-size: 2.5rem;
-}
+/*Gallery*/
 
-.venue-location {
-    font-size: 1.5rem;
-}
-
-.title-row {
-    border-top: none !important;
+.gallery-row img {
+    width: 100%;
+    padding: 20px 0;
 }
