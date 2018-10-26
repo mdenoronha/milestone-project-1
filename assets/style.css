@@ -68,7 +68,6 @@ button:hover {
 
 /*Logos*/
 
-.logo-centred-footer,
 .logo-centred {
     margin: 0 auto;
 }
@@ -78,6 +77,10 @@ button:hover {
     display: block;
     margin: 0 auto;
     max-width: 300px;
+}
+
+.logo-img-footer {
+    width: 100%;
 }
 
 .logo-img-footer:hover {
@@ -259,7 +262,6 @@ button:hover {
 /*Footer*/
 
 .logo-img-footer {
-    width: 25%;
     padding: 50px 0 20px 0;
 }
 
@@ -485,6 +487,10 @@ button:hover {
 
 /*Single video*/
 
+.close:hover {
+    border: none;
+}
+
 .video-thumbnail:hover img {
     opacity: 0.6;
 }
@@ -497,9 +503,6 @@ button:hover {
     position: relative;
     z-index: 0;
 }
-
-
-
 
 .play-icon {
     visibility: hidden;
