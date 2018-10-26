@@ -29,6 +29,42 @@ button:hover {
     border-radius: 327px 17px 207px 21px/23px 237px 19px 268px;
 }
 
+/*Burger Menu*/
+
+.line {
+    display: block;
+    width: 50px;
+    border-top: 4px solid #413f3f;
+    padding-bottom: 10px;
+}
+
+.line1 {
+    border-radius: 220px 330px 191px 17px;
+    transform: rotate(-2deg);
+}
+
+.line2 {
+    border-radius: 175px 240px 341px 107px;
+    transform: rotate(-5deg);
+}
+
+.line3 {
+    border-radius: 207px 300px 301px 17px;
+    transform: rotate(-3deg);
+}
+
+
+.navbar-toggler-collapsed:hover,
+.navbar-toggler:hover,
+.navbar-toggler,
+.navbar-toggler-collapsed,
+.navbar-toggler-collapsed:focus,
+.navbar-toggler:focus {
+    outline: none;
+    border: none;
+}
+
+
 
 /*Logos*/
 
@@ -42,6 +78,10 @@ button:hover {
     display: block;
     margin: 0 auto;
     max-width: 300px;
+}
+
+.logo-img-footer:hover {
+    opacity: 0.6;
 }
 
 .logo-img-mobile {
@@ -233,9 +273,18 @@ button:hover {
 }
 
 .centred-icons ul li {
-    float: left;
     list-style-type: none;
     padding: 0 10px;
+    float: left;
+
+}
+
+.social-icon:hover {
+    opacity: 0.4;
+}
+
+.social-icon {
+    max-width: 25px;
 }
 
 .copyright-text p {
@@ -248,7 +297,7 @@ button:hover {
 
 @media (max-width: 767px) {
     .logo-img-footer {
-        width: 50%;
+        width: 75%;
         padding: 50px 0 20px 0;
     }
 }
@@ -301,6 +350,14 @@ button:hover {
 
 .video-info p {
     font-size: 20px;
+}
+
+.purchase-icon {
+    max-width: 60px;
+}
+
+.purchase-icon:hover {
+    opacity: 0.6;
 }
 
 /*Featured Video Media Queries*/
@@ -428,17 +485,55 @@ button:hover {
 
 /*Single video*/
 
-.single-video {
-    padding: 0 10%;
+.video-thumbnail:hover img {
+    opacity: 0.6;
 }
 
-.single-video-text {
-    padding-top: 20px;
+.video-thumbnail:hover .play-icon {
+    visibility: visible;
 }
 
-.single-video-text p {
-    line-height: 0.9;
+.single-video-tile {
+    position: relative;
+    z-index: 0;
 }
+
+
+
+
+.play-icon {
+    visibility: hidden;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 0 25px 43.3px;
+    border-color: transparent transparent transparent white;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/*.single-video {*/
+
+/*    padding: 0 10%;*/
+
+/*}*/
+
+/*.single-video-text {*/
+
+/*    padding-top: 20px;*/
+
+/*}*/
+
+/*.single-video-text p {*/
+
+/*    line-height: 0.9;*/
+
+/*}*/
 
 /*Pagination*/
 
