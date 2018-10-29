@@ -846,3 +846,22 @@ label[for^=tab] {
     width: 100%;
     padding: 20px 0;
 }
+
+/*Back to top button*/
+
+.btt-button {
+    position: fixed;
+    z-index: 3;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    left: 2%;
+    top: 90%;
+}
+
+.btt-button p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    color: white;
+}
