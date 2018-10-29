@@ -68,9 +68,10 @@ Testing
 ---------------
 Test  | Test Actions | Successful | Notes
 ------------- | ------------- | ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
-
+Desktop mobile  | *buttons react on hover 
+*buttons take users to respective page
+*active page is clear (both visually and screen reader)| Successful | Notes
+Test  | Test Actions | Successful | Notes
 
 
 Happy coding!
