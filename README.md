@@ -66,12 +66,16 @@ Technologies Used
 
 Testing
 ---------------
-Test  | Test Actions | Successful | Notes
-------------- | ------------- | ------------- | -------------
-Desktop mobile  | *buttons react on hover 
-*buttons take users to respective page
-*active page is clear (both visually and screen reader)| Successful | Notes
-Test  | Test Actions | Successful | Notes
+Test:  | Desktop Menu
+------------- | -------------
+Buttons react on hover | Successful
+Buttons take users to respective page | Successful
+Active page is clear (both visually and screen reader) | Successful 
+Test  | Mobile Menu
+------------- | -------------
+Mobile menu appear on screen widths 767px and below | Successful
+Menu appears after selecting burger icon | Successful
+Menu closes after selecting burger icon | Successful
 
 
 Happy coding!
