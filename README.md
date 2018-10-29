@@ -66,26 +66,83 @@ Technologies Used
 
 Testing
 ---------------
-Test:  | Desktop Menu
+Test  | Status
 ------------- | -------------
+Desktop Menu |
 Buttons react on hover | Successful
 Buttons take users to respective page | Successful
 Active page is clear (both visually and screen reader) | Successful 
-Test  | Mobile Menu
-------------- | -------------
+Mobile Menu |
 Mobile menu appear on screen widths 767px and below | Successful
 Menu appears after selecting burger icon | Successful
 Menu closes after selecting burger icon | Successful
+Footer | 
+Footer links take users to respective site (in new tab) | Successful
+Music Dropdown | 
+Spotify iframe appears on selecting dropdown | Successful
+Spotify iframe closes on selecting dropdown again | Successful
+Spotify iframe plays music as intended | Successful
+Dropdown changed to mobile on screens widths 767px and below | Successful
+Videos | 
+Featured video playable and has full Youtube Functionality | Successful
+'Get the Single' links take user to relevant page (in new tab) | Successful
+Videos show play icon on hover | Successful
+Video modal appears when video selected | Successful
+Video modal can play video and has full Youtube functionality | Successful
+Video modal can be closed with 'X' and video stops playing | Successful
+Videos take up one column on screens widths 767px and below | Successful
+Gallery | 
+All images load | Successful
+Images take up one column on screens widths 575px and below | Successful
+Images take up two columns on screens widths between 575px and 767px | Successful
+Images take up three columns on screens widths between 768px and 991px | Successful
+Images take up four columns on screens widths 992px and above | Successful
+Tour |
+On desktop, hovering over selected continents shows label | Successful
+On desktop, removing hover makes the relevant label disappear | Successful
+On desktop, selecting a continent takes user to relevant section in table | Successful
+Selecting 'Buy now' takes user to relevant site (in new tab) | Successful (dummy links used)
+Labels are visible without hover on screen widths 768px and below | Successful
+On mobile, users are taken to relevant section in table after selecting a continent | Successful
+All cells in table take up one column on screen widths 768px and below | Successful
+Back To Top | 
+Back to top button stays in fixed location on scroll | Successful
+When selected, back to top button takes users to top of page | Successful
+
+Deployment
+---------------
+Project has been deployed to GitHub Pages and is accessible [here](https://mdenoronha.github.io/milestone-project-1/index.html)
+
+Credits
+---------------
+* Video modal is Bootstrap with additional help provided by [Anonymous](https://codepen.io/anon/pen/LgJRjz) (primarily for jQuery to stop video playing after modal closed. jQuery has been updated
+as it was targeting a button with class .video-btn but now targets <a> element with class .video-link (as no buttons are used). Modal has also been styled.)
+* Responsive embeded video assistance provided by [Embed Responsively](http://embedresponsively.com/)
+* Assistance in CSS only accordian for Music page provided by following [JSFiddle](https://jsfiddle.net/4xvsn17y/)
+* Embed music streaming provided by Spotify
+* Embed video streaming provided by Youtube
+
+Media
+---------------
+* Music and video content provided by artist Slothrust (Dangerbird Records, Ba Da Bing!, Burger Records)
+* Image content provided by:
+    * https://x96.com
+    * https://en.wikipedia.org
+    * https://www.facebook.com/Slothrust
+    * http://atwoodmagazine.com
+    * http://newengland.thedelimagazine.com
+    * http://www.badabingrecords.com
+    * http://www.brooklynvegan.com
+    * http://www.radiofreepensacola.com
+    * https://www.villagevoice.com
+    * https://nylon.com
+    * https://giggoer.com
+    * https://eventseeker.com
+    * http://martianpr.com
+    * https://overblown.co.uk
+    * https://www.stereogum.com
+    * http://dangerbirdrecords.com
 
 
-Happy coding!
-The Cloud9 IDE team
-
-Embed video responsiveness: http://embedresponsively.com/
-Add favicon
-Overlay play icon on videos
-
-Video modal code was Bootstrap modal and additional help provided by https://codepen.io/anon/pen/LgJRjz. Primarily for jQuery to stop video playing after modal closed. jQuery has been updated
-as it was targeting a button with class .video-btn but now targets < a> element with class .video-link (as no buttons are used). Modal has also been styled.
 
 
