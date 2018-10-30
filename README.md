@@ -36,7 +36,11 @@ The project helps to satisfy each user group's request, it does this through a n
 
 Wireframes of the desktop pages can be found [here](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C75be0e9612b44582a7f957193df83688/projects/Me9b9df2871d6e69c2e9c209484fed0131539713676270/pages/D9583b6cdf03bb8312221ea009a4f7766/image/D9583b6cdf03bb8312221ea009a4f7766.png)
 
-Wireframes of the mobile pages can be found [here](htt)
+Wireframes of the mobile pages can be found [here](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C75be0e9612b44582a7f957193df83688/projects/Me9b9df2871d6e69c2e9c209484fed0131539713676270/pages/82941ec28dc74efa94d962e2d5c81e67/image/82941ec28dc74efa94d962e2d5c81e67.png)
+
+The following alterations were made after the mock-up phase:
+* The removal of the fixed image and titles on gallery to allow a structured grid
+* The removal of single video pages, replaced with pop up video modals
 
 Features
 ---------------
@@ -112,6 +116,10 @@ When selected, back to top button takes users to top of page | Successful
 Deployment
 ---------------
 Project has been deployed to GitHub Pages and is accessible [here](https://mdenoronha.github.io/milestone-project-1/index.html)
+The process for deployment was as follows: 
+* Project pushed to GitHub repository
+* Navigated to Settings in relevant GitHub repository
+* Under GitHub Pages, selected relevant branch (master branch) and saved
 
 Credits
 ---------------
