@@ -21,12 +21,17 @@ button {
     border: 3px solid rgba(0, 0, 0, .5);
     border-radius: 320px 10px 200px 16px/17px 230px 12px 260px;
     color: rgba(0, 0, 0, .5);
+    cursor: pointer;
 }
 
 button:hover {
     border: 3px solid black;
     color: black;
     border-radius: 327px 17px 207px 21px/23px 237px 19px 268px;
+}
+
+button:focus {
+    outline: none;
 }
 
 /*Burger Menu*/
