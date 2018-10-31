@@ -17,22 +17,33 @@ h2 {
     margin-bottom: 0;
 }
 
-button {
+iframe {
+    border: none;
+}
+
+.button-style {
     border: 3px solid rgba(0, 0, 0, .5);
     border-radius: 320px 10px 200px 16px/17px 230px 12px 260px;
     color: rgba(0, 0, 0, .5);
     cursor: pointer;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 3px 10px;
 }
 
-button:hover {
+.button-style:hover {
     border: 3px solid black;
     color: black;
     border-radius: 327px 17px 207px 21px/23px 237px 19px 268px;
+    text-decoration: none;
 }
 
-button:focus {
+.button-style:focus {
     outline: none;
 }
+
 
 /*Burger Menu*/
 
@@ -224,43 +235,50 @@ button:focus {
     height: auto;
 }
 
-
-.promo-banner button {
+.promo-banner .button-style {
     position: absolute;
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     width: 20%;
-    height: 40%;
     font-size: 40px;
+    text-align: center;
+    line-height: 75px;
+    background-color: white;
 }
 
 
 
-.promo-banner button:hover {
+.promo-banner .button-style:hover {
     font-size: 42px;
 }
+
+
 
 /*Promo Media Queries*/
 
 @media (max-width: 992px) {
-    .promo-banner button {
+    .promo-banner .button-style {
         font-size: 26px;
+        line-height: 40px;
     }
 
-    .promo-banner button:hover {
+    .promo-banner .button-style:hover {
         font-size: 28px;
+        line-height: 40px;
     }
 }
 
 @media (max-width: 576px) {
-    .promo-banner button {
+    .promo-banner .button-style {
         font-size: 14px;
+        line-height: 25px;
     }
 
-    .promo-banner button:hover {
+    .promo-banner .button-style:hover {
         font-size: 16px;
+        line-height: 25px;
     }
 }
 
