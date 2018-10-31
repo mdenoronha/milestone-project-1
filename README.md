@@ -3,7 +3,7 @@ Slothrust Official Site
 =============
 A milestone project displaying my HTML and CSS capabilities.
 The project is an official site for a band, in this example the rock group Slothrust.
-The site covers a number of essential elements an official band site should contain, helping users better engage with the artist's content (muisic, videoes, images) as well as promoting new music the artist and record label would be looking to sell.
+The site covers a number of essential elements an official band site should contain, helping users better engage with the artist's content (music, videos, images) as well as promoting new music the artist and record label would be looking to sell.
 
 UX
 ---------------
@@ -16,9 +16,9 @@ The project helps to satisfy each user group's request, it does this through a n
 
 * users familiar with the band looking to quickly find specific content they wish to engage with
     * This user group may wish to listen to a specific song from the artist. The music page is segmented into albums, so that they do not have to sort through every song the artist has produced. The segmented albums are only visible on click from a dropdown, helping to not overload the user with too much content.
-    * Similarily, the videos page offers the opportunity for users to sort through the artist's previous work to find the exact video they are looking for. On clicking a video, they appear in a lightbox modal, improving the viewing experience.
-    * The videos page promotes the latest video in a separate section, as this is likely to be the most sought after video around its release. As a user familar with their work, options to purchase the latest track are clearly visible under the video - with a number of options available depending on the user's preference.
-    * The tour page makes use of a map menu, which when clicked will take a user to the corresponding continent of tour locations. This user group may likely be aware of the fact the artist is touring close to thier location. They may need a quick way of viewing the touring information in their area, rather than looking through all locations. The ticket purchasing information is also prominent for each location, as a user viewing this information would likely be wishing to attend the event.
+    * Similarly, the videos page offers the opportunity for users to sort through the artist's previous work to find the exact video they are looking for. On clicking a video, they appear in a lightbox modal, improving the viewing experience.
+    * The videos page promotes the latest video in a separate section, as this is likely to be the most sought after video around its release. As a user familiar with their work, options to purchase the latest track are clearly visible under the video - with a number of options available depending on the user's preference.
+    * The tour page makes use of a map menu, which when clicked will take a user to the corresponding continent of tour locations. This user group may likely be aware of the fact the artist is touring close to their location. They may need a quick way of viewing the touring information in their area, rather than looking through all locations. The ticket purchasing information is also prominent for each location, as a user viewing this information would likely be wishing to attend the event.
 
 * users who are aware of the band and do not have an extensive knowledge of their work, but wish to learn more about them
     * The segmented music page doubles as a discography list, providing user's the opportunity to see how many albums the band have, how their music has changed across each album and how they have changed as a band over time.
@@ -27,7 +27,7 @@ The project helps to satisfy each user group's request, it does this through a n
     * This user group may not be aware of the locations the band will be touring, how extensive their tours are and what countries and continents will be part of it. The map menu quickly informs the user which continents the band will be visiting and that their tour is worldwide. By only providing a table of venues, it'd be difficult to see the size of their tour. Without studying each table row, it could be assumed the band is visiting only North America or Europe. The map menu gives an indication of the tour extent.
 
 * users who want to find the latest music of said band
-    * A large portion of users will be visiting the site to see the band's latest work, the videos page is one example of how this desire is satisfied. The latest video is given a more prominent section, with more information and links if users wish to purchase the song. Instead of sorting through all videoes, the one that will likely be more sought after is more prominent.
+    * A large portion of users will be visiting the site to see the band's latest work, the videos page is one example of how this desire is satisfied. The latest video is given a more prominent section, with more information and links if users wish to purchase the song. Instead of sorting through all videos, the one that will likely be more sought after is more prominent.
     * On every page, the latest album is promoted. This is both to satisfy this users group's likely interest but also helping the record label in their current aim of selling the latest album. All pages (except for home) have a banner at the footer with a link to purchase the album, the footers placement means it does not detract from the site's main function but helps to promote the album to users who will be receptive.
     * Similarly, the homepage features a background image of the album. This functions as a prominent way of promoting the artist's latest work.
 
@@ -48,8 +48,8 @@ Features
 * The burger menu allows mobile users to open and close the menu as they wish
 * The menu option currently selected is given a different colour, indicating the page the user is currently on (Screen reader text is also changed)
 * Footer and menu links change colour on hover and icon changes to pointer, informing users that it is a link
-* Under music, embeded Spotify iframes allow users to play music directly on the page. The iFrame also allows users to view the album on Spotify, share the album and also log in to listen as a paid user
-* Embeded Spotify iframes are hidden under an accordian, allowing users to select which album they wish to listen to by clicking on the relevant option
+* Under music, embedded Spotify iframes allow users to play music directly on the page. The iFrame also allows users to view the album on Spotify, share the album and also log in to listen as a paid user
+* Embedded Spotify iframes are hidden under an accordion, allowing users to select which album they wish to listen to by clicking on the relevant option
 * Under Videos, YouTube iFrames allow the user to view a video directly on the page. The iFrame also allows users to select similar videos, play and pause, adjust settings, play full screen and share online.
 * Bootstrap modals allows the user to select a video (except featured) and for it to be played as a pop up modal. The user is able to close this modal using the X icon.
 * The tour page allows users to select a specific continent and see events in that area. This is done by clicking on the relevant continent on the map, diverting users to the relevant section in the table.
@@ -125,8 +125,8 @@ Credits
 ---------------
 * Video modal is Bootstrap with additional help provided by [Anonymous](https://codepen.io/anon/pen/LgJRjz) (primarily for jQuery to stop video playing after modal closed. jQuery has been updated
 as it was targeting a button with class .video-btn but now targets <a> element with class .video-link (as no buttons are used). Modal has also been styled.)
-* Responsive embeded video assistance provided by [Embed Responsively](http://embedresponsively.com/)
-* Assistance in CSS only accordian for Music page provided by following [JSFiddle](https://jsfiddle.net/4xvsn17y/)
+* Responsive embedded video assistance provided by [Embed Responsively](http://embedresponsively.com/)
+* Assistance in CSS only accordion for Music page provided by following [JSFiddle](https://jsfiddle.net/4xvsn17y/)
 * Embed music streaming provided by Spotify
 * Embed video streaming provided by Youtube
 
@@ -150,7 +150,3 @@ Media
     * https://overblown.co.uk
     * https://www.stereogum.com
     * http://dangerbirdrecords.com
-
-
-
-
