@@ -115,7 +115,7 @@ When selected, back to top button takes users to top of page | Successful
 
 Deployment
 ---------------
-Project has been deployed to GitHub Pages and is accessible [here](https://mdenoronha.github.io/milestone-project-1/index.html)
+Project has been deployed to GitHub Pages and is accessible [here](https://mdenoronha.github.io/slothrust-html-site/index.html)
 The process for deployment was as follows: 
 * Project pushed to GitHub repository
 * Navigated to Settings in relevant GitHub repository
